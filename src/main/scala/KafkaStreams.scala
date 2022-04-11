@@ -50,7 +50,7 @@ object KafkaStreams {
   // topology
   val builder = new StreamsBuilder()
   //KStream
-  val usersOrdersStream : KStream[UserId,Order] = builder.stream[UserId,Order](OrdersByUser)
+  val usersOrdersStream = builder.stream[UserId,Order](OrdersByUser)
   //Ktable
   val userProfilesTable : KTable[UserId,Profile] = builder.table[UserId,Profile](DiscountProfilesByUser)
   val userProfilesGTable : GlobalKTable[Profile,Discount] = builder.globalTable[Profile,Discount](Discounts)
@@ -62,6 +62,7 @@ object KafkaStreams {
   val listOfProducts: KStream[UserId, List[Product]] = usersOrdersStream.mapValues{
     order => order.products
   }
+
   val productsStream: KStream[UserId, Product] = usersOrdersStream.flatMapValues(_.products)
   //join
   val ordersWithUsersProfiles: KStream[UserId, (Order, Profile)] = usersOrdersStream.join(userProfilesTable) {
