@@ -103,6 +103,11 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.15/org.scala-sbt/sbt/1.6.2/zinc-persist-core-assembly-1.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.15/org.scala-sbt/sbt/1.6.2/zinc-persist_2.12-1.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.15/org.scala-sbt/sbt/1.6.2/zinc_2.12-1.6.0.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Scala/repo/io/spray/spray-json_2.12/1.3.6/spray-json_2.12-1.3.6.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Scala/repo/org/jetbrains/scala/sbt-idea-compiler-indices_2.12_1.0/1.0.14/sbt-idea-compiler-indices-1.0.14.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Scala/repo/org/jetbrains/scala/sbt-idea-shell_2.12_1.0/2021.1.0/sbt-idea-shell-2021.1.0.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.3/2023.3.2/sbt-structure-extractor-2023.3.2.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Scala/repo/org/jetbrains/scala/scala-compiler-indices-protocol_2.12/1.0.14/scala-compiler-indices-protocol_2.12-1.0.14.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -110,7 +115,8 @@
     </orderEntry>
   </component>
   <component name="SbtModule">
-    <option name="buildForURI" value="file:$MODULE_DIR$/../../" />
-    <option name="imports" value="SUB:DOLLAR82876d98799f831d6853.`root`, _root_.sbt.Keys._, _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.sbt._, _root_.sbt.nio.Keys._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" />
+    <option name="buildForURI" value="file:/$MODULE_DIR$/../../" />
+    <option name="imports" value="SUB:DOLLAReaae02cc9d993dc0e110.`root`, _root_.sbt.Keys._, _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.org.jetbrains.sbt.IdeaShellPlugin.autoImport._, _root_.org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin.autoImport._, _root_.sbt._, _root_.sbt.nio.Keys._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.org.jetbrains.sbt.StructurePlugin, _root_.org.jetbrains.sbt.IdeaShellPlugin, _root_.org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" />
+    <option name="resolvers" value="https://repo1.maven.org/maven2/|maven|public, C:\Users\mustapha.abdelaziz\.ivy2\cache|ivy|true|Local cache" />
   </component>
 </module>
