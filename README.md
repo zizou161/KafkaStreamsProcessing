@@ -1,6 +1,6 @@
 ## Kafka-Streams-Orders-Processing
 
-Stream processing application for orders, utilizing key features of Kafka Streams in a realistic scenario to demonstrate a comprehensive, end-to-end implementation.
+Stream processing application, utilizing key features of Kafka Streams in a realistic scenario to demonstrate a comprehensive, end-to-end implementation.
 
 ## Requirements
 - JDK 1.8.
